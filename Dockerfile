@@ -17,4 +17,4 @@ COPY src src
 RUN ./mvnw clean package -DskipTests
 
 # Run jar
-CMD ["java", "-jar", "target/job-portal-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/job-portall-0.0.1-SNAPSHOT.jar"]
